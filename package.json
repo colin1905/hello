@@ -7,8 +7,8 @@
     "node": "11.6.0"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
@@ -17,8 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "test": "react-scripts test",
+    "predeploy": "npm run public",
+    "deploy": "gh-pages -d public",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
